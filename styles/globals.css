@@ -11,7 +11,7 @@ main {
   height: calc(946/(568+946)*100%);
   max-width: 568px;
   max-height: 946px;
-  /* margin: auto; */
+  margin: auto;
 }
 
 li {
