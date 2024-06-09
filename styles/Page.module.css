@@ -1,0 +1,37 @@
+.Page {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 8px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.Page.active {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Page.clone {
+  opacity: 0.5;
+}
+
+.Page .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page .image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.Page .title {
+  margin: 8px 0 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Page .location {
+  color: #666;
+}
